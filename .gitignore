@@ -1,0 +1,32 @@
+# Ignore everything by default
+*
+
+# Explicitly include .c and .h filesplus the README.md and .gitignore 
+!*.c
+!*.h
+!*-O
+!README.md
+!.gitignore
+
+# Explicitly ignore main.c
+*main.c
+
+# Ignore compiled files and executables
+*.o
+*.out
+main
+_printf
+
+# Ignore temporary and backup files
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore editor-specific files and folders
+.vscode/
+.idea/
