@@ -1,7 +1,7 @@
 # Ignore everything by default
 *
 
-# Explicitly include .c and .h filesplus the README.md and .gitignore 
+# Explicitly include .c and .h files plus the README.md and .gitignore 
 !*.c
 !*.h
 !*-O
